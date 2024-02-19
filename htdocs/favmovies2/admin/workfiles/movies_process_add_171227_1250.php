@@ -1,0 +1,143 @@
+<?php
+require('./config/config.php');
+
+// Get added movie variable values from the $_POST array
+
+$movieTitle = filter_input(INPUT_POST, 'movieTitle');
+$releaseYear = filter_input(INPUT_POST, 'releaseYear');
+$movieRating = filter_input(INPUT_POST, 'movieRating');
+
+// Validate to make sure there is data in all fields
+
+if (empty($movieTitle)) {
+	$pageTitle = "Error: No Movie Title";
+	echo "<div class=container>";	
+	include('./header.php');
+	echo '<div class="alert alert-warning">'; // Bootstrap class for alert warning; refer to getbootstrap.com
+	echo "<strong>Error!</strong> Enter a Movie Title in the form. Please try again.";
+	echo "</div>";
+    	include('./footer.php');
+	echo "</div>";
+	echo "</body></html>";
+	die;
+}
+
+if (empty($releaseYear)) {
+	$pageTitle = "Error: No Year Released";
+	echo "<div class=container>";	
+	include('./header.php');
+	echo '<div class="alert alert-warning">';
+	echo "<strong>Error!</strong> Enter the Release Year for the movie in the form. Please try again.";
+	echo "</div>";
+    	include('./footer.php');
+	echo "</div>";
+	echo "</body></html>";
+	die;
+} 
+
+if (empty($movieRating)) {
+	$pageTitle = "Error: No Movie Rating";
+	echo "<div class=container>";	
+	include('./header.php');
+	echo '<div class="alert alert-warning">';
+	echo "<strong>Error!</strong> Enter the Motion Picture Association of America Rating for the movie in the form. Please try again.";
+	echo "</div>";
+    	include('./footer.php');
+	echo "</div>";
+	echo "</body></html>";
+	die;
+} 
+ 
+
+// Create a new record and add the new movie variable values to the database
+
+$query = 'INSERT INTO movielist (movieTitle, releaseYear, movieRating, dateEntered) VALUES (:movieTitle, :releaseYear, :movieRating, now() )';
+$statement = $db->prepare($query);
+$statement->bindValue(':movieTitle', $movieTitle);
+$statement->bindValue(':releaseYear', $releaseYear);
+$statement->bindValue(':movieRating', $movieRating);
+$statement->execute();
+$statement->closeCursor();
+
+
+// SHOW THE RESULTS OF THE ADDED MOVIE RECORD
+// Retrieve the new movie record
+$query2 = 'SELECT * FROM movielist WHERE movieTitle = :movieTitle';
+        $statement2 = $db->prepare($query2);
+        $statement2->bindValue(':movieTitle', $movieTitle);
+        $statement2->execute();
+        $recordAdd = $statement2->fetch();
+        $movieID = $recordAdd['movieID'];
+        $releaseYear = $recordAdd['releaseYear'];
+        $movieRating = $recordAdd['movieRating'];
+        $dateEntered = $recordAdd['dateEntered'];
+        $statement2->closeCursor();
+
+// Retrieve the description for the movie rating
+$query = 'SELECT * FROM movie_rating WHERE rating = :movieRating';
+        $statement3 = $db->prepare($query);
+        $statement3->bindValue(':movieRating', $movieRating);
+        $statement3->execute();
+        $statement3 = $statement3->fetch();
+        $rating_description = $statement3['rating_description'];
+
+// Change date and time formats
+if (($dateEntered == "0000-00-00 00:00:00")) {
+        $dateEntered = " ";
+        } else {
+        $dateEntered = date("l, F d, Y - g:i A", strtotime($dateEntered));
+        }
+
+// Create HTML page to display the edited record
+
+$pageTitle = 'New Movie Added';
+
+?>
+
+<div class="container">
+
+<?php include './header.php'; ?>
+
+<h3>New Movie Added</h3><br />
+
+<table class="table">
+<tr>
+<td align="right"><strong>Movie Title:</strong></td>
+<td><?php echo $movieTitle; ?></td>
+</tr>
+<tr>
+<td align="right"><strong>Year Movie Released:</strong></td>
+<td><?php echo $releaseYear; ?></td>
+</tr>
+<tr>
+<td align="right"><strong>MPAA Rating:</strong></td>
+<td><?php echo $movieRating; ?> - <?php echo $rating_description; ?></td>
+</tr>
+<tr>
+<td align="right"><strong>Date Entered:</strong></td>
+<td><?php echo $dateEntered; ?></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td align="left">
+
+<!-- Offer to edit the new movie record -->
+
+<form action="movies_edit.php" method="POST" id="movies_edit">
+<input type="hidden" name="movieID" value="<?php echo $movieID; ?>" />
+<!-- Bootstrap 3 button syntax -->
+<button type="submit" class="btn btn-primary">Edit this New Movie?</button>
+</form>
+
+</td>
+</table>
+
+<?php include "./footer.php"; ?>
+
+</div>
+</div> <!-- Close container -->
+
+</body>
+</html>
+
+?>         

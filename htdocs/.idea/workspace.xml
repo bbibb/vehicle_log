@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="64d6af24-587a-4175-9550-695e6880dff7" name="Changes" comment="PHP Final Project v1 with vehicle database: add and edit forms.">
+      <change beforePath="$PROJECT_DIR$/../../CPT187_Python2/Bibb_Bryan_Lab18-1_future_value_gui/business.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPT187_Python2/Bibb_Bryan_Lab18-1_future_value_gui/ui.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPT187_Python2/Bibb_Bryan_Lab18-2_mpg/mpg_gui.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MSSQL/Scripts.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../MSSQL/Scripts.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MSSQL/Views.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../MSSQL/Views.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Networking/257 Chapter 1.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Networking/257 Chapter 1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/ch08_ex1/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/labs/ch08_ex1/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/ch08_ex1/invoice_total.php" beforeDir="false" afterPath="$PROJECT_DIR$/labs/ch08_ex1/invoice_total.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/ch08_ex2/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/labs/ch08_ex2/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/ch08_ex2/loop_tester.php" beforeDir="false" afterPath="$PROJECT_DIR$/labs/ch08_ex2/loop_tester.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vehicle_log/edit_vehicle.php" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle_log/edit_vehicle.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="bbibb &lt;bryan.bibb@furman.edu&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../.." value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php/8.3.1/bin/php" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2b5iosMptW9GZqh6nFn43Rir3kD" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.index.php (1).executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.php.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.projectlab2.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.index.php (1).executor&quot;: &quot;Debug&quot;,
+    &quot;PHP Script.index.php.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/bbibb/repos/GTC/PHP/htdocs/vehicle_log2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;web.server&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;/Users/bbibb/repos/GTC/PHP/htdocs/vehicle_log/projectlab3.php&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ],
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;HTML&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vehicle_log2" />
+      <recent name="$PROJECT_DIR$/vehicle_log2/includes" />
+      <recent name="$PROJECT_DIR$/vehicle_log/deliverables" />
+      <recent name="$PROJECT_DIR$/labs/deliverables" />
+      <recent name="$PROJECT_DIR$/vehicle_log" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Script.index.php (1)">
+    <configuration name="index.php (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="https://cpt283-bibb.beausanders.net/labs/ch07_ex1/index.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="https://cpt283-bibb.beausanders.net/labs/ch06_ex1/index.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="projectlab2.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="https://cpt283-bibb.beausanders.net/vehicle_log/projectlab2.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.php (1)" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/vehicle_log2/index.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/labs/ch05_ex1/index.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.index.php (1)" />
+        <item itemvalue="JavaScript Debug.index.php (1)" />
+        <item itemvalue="JavaScript Debug.projectlab2.php" />
+        <item itemvalue="JavaScript Debug.index.php" />
+        <item itemvalue="PHP Script.index.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-php-predefined-ba97393d7c68-74080bdb84d3-com.jetbrains.php.sharedIndexes-PS-233.11799.297" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="64d6af24-587a-4175-9550-695e6880dff7" name="Changes" comment="" />
+      <created>1705511520002</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705511520002</updated>
+      <workItem from="1705511521055" duration="1263000" />
+      <workItem from="1705513434536" duration="35500000" />
+      <workItem from="1705954045053" duration="1003000" />
+      <workItem from="1706202310854" duration="27758000" />
+      <workItem from="1706466539483" duration="9128000" />
+      <workItem from="1706801603906" duration="13128000" />
+      <workItem from="1707147111994" duration="26000" />
+      <workItem from="1707486129317" duration="52307000" />
+      <workItem from="1707679065171" duration="9611000" />
+      <workItem from="1707842311272" duration="13765000" />
+      <workItem from="1707860155512" duration="3428000" />
+      <workItem from="1707873445140" duration="14000" />
+      <workItem from="1707873656301" duration="16376000" />
+      <workItem from="1708108486428" duration="180000" />
+      <workItem from="1708126642438" duration="1374000" />
+      <workItem from="1708134918233" duration="11480000" />
+      <workItem from="1708201098713" duration="3619000" />
+      <workItem from="1708310446400" duration="1319000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="PHP Final Project v1 with vehicle database: add and edit forms." />
+    <option name="LAST_COMMIT_MESSAGE" value="PHP Final Project v1 with vehicle database: add and edit forms." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/labs/ch05_ex1/model/category_db.php</url>
+          <line>45</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/vehicle_log/edit_vehicle_db.php</url>
+          <line>26</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
