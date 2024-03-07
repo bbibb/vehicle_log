@@ -9,18 +9,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64d6af24-587a-4175-9550-695e6880dff7" name="Changes" comment="PHP Final Project v1 with vehicle database: add and edit forms.">
-      <change beforePath="$PROJECT_DIR$/../../CPT187_Python2/Bibb_Bryan_Lab18-1_future_value_gui/business.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPT187_Python2/Bibb_Bryan_Lab18-1_future_value_gui/ui.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPT187_Python2/Bibb_Bryan_Lab18-2_mpg/mpg_gui.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MSSQL/Scripts.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../MSSQL/Scripts.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MSSQL/Views.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../MSSQL/Views.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Networking/257 Chapter 1.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Networking/257 Chapter 1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/ch08_ex1/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/labs/ch08_ex1/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/ch08_ex1/invoice_total.php" beforeDir="false" afterPath="$PROJECT_DIR$/labs/ch08_ex1/invoice_total.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/ch08_ex2/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/labs/ch08_ex2/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/ch08_ex2/loop_tester.php" beforeDir="false" afterPath="$PROJECT_DIR$/labs/ch08_ex2/loop_tester.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/deliverables/Bibb_Brytan_Lab8-2_loop_tester.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vehicle_log/add_vehicle_db.php" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle_log/add_vehicle_db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vehicle_log/deliverables/Bibb_Bryan_projectlab3_add_vehicle.php" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle_log/deliverables/Bibb_Bryan_projectlab3_add_vehicle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vehicle_log/deliverables/Bibb_Bryan_projectlab4_edit_vehicle_db.php" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle_log/deliverables/Bibb_Bryan_projectlab4_edit_vehicle_db.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vehicle_log/edit_vehicle.php" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle_log/edit_vehicle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vehicle_log/edit_vehicle_db.php" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle_log/edit_vehicle_db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vehicle_log/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle_log/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vehicle_log/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle_log/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vehicle_log/projectlab2.php" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle_log/vehicles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vehicle_log/projectlab3.php" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle_log/add_vehicle.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +44,13 @@
         <entry key="$PROJECT_DIR$/../.." value="main" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php/8.3.1/bin/php" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php/8.3.1/bin/php">
+    <include_path>
+      <path value="$USER_HOME$/Library/CloudStorage/GoogleDrive-bdbibb@gmail.com/My Drive/GTC/CPT283" />
+    </include_path>
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -72,14 +79,14 @@
     &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/bbibb/repos/GTC/PHP/htdocs/vehicle_log2&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/bbibb/repos/vehicle_log/htdocs/labs&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;web.server&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;two.files.diff.last.used.file&quot;: &quot;/Users/bbibb/repos/GTC/PHP/htdocs/vehicle_log/projectlab3.php&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -88,45 +95,51 @@
       &quot;mysql&quot;
     ],
     &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PHP&quot;,
       &quot;HTML&quot;
     ]
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/labs" />
       <recent name="$PROJECT_DIR$/vehicle_log2" />
       <recent name="$PROJECT_DIR$/vehicle_log2/includes" />
       <recent name="$PROJECT_DIR$/vehicle_log/deliverables" />
       <recent name="$PROJECT_DIR$/labs/deliverables" />
-      <recent name="$PROJECT_DIR$/vehicle_log" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.index.php (1)">
+  <component name="RunManager" selected="PHP Script.scratch_1.php">
     <configuration name="index.php (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="https://cpt283-bibb.beausanders.net/labs/ch07_ex1/index.php">
       <method v="2" />
     </configuration>
     <configuration name="index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="https://cpt283-bibb.beausanders.net/labs/ch06_ex1/index.php">
       <method v="2" />
     </configuration>
-    <configuration name="projectlab2.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="https://cpt283-bibb.beausanders.net/vehicle_log/projectlab2.php">
+    <configuration name="vehicles.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="https://cpt283-bibb.beausanders.net/vehicle_log/vehicles.php">
       <method v="2" />
     </configuration>
     <configuration name="index.php (1)" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/vehicle_log2/index.php">
       <method v="2" />
     </configuration>
-    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/labs/ch05_ex1/index.php">
+    <configuration name="scratch_1.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.php">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="/opt/homebrew/Cellar/php/8.3.1/bin/php" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.scratch_1.php" />
         <item itemvalue="PHP Script.index.php (1)" />
         <item itemvalue="JavaScript Debug.index.php (1)" />
-        <item itemvalue="JavaScript Debug.projectlab2.php" />
+        <item itemvalue="JavaScript Debug.vehicles.php" />
         <item itemvalue="JavaScript Debug.index.php" />
-        <item itemvalue="PHP Script.index.php" />
       </list>
     </recent_temporary>
   </component>
@@ -163,6 +176,11 @@
       <workItem from="1708134918233" duration="11480000" />
       <workItem from="1708201098713" duration="3619000" />
       <workItem from="1708310446400" duration="1319000" />
+      <workItem from="1708361418495" duration="25459000" />
+      <workItem from="1709054518820" duration="4142000" />
+      <workItem from="1709221921881" duration="5299000" />
+      <workItem from="1709469544606" duration="23093000" />
+      <workItem from="1709777224601" duration="10645000" />
     </task>
     <servers />
   </component>
@@ -202,6 +220,11 @@
           <url>file://$PROJECT_DIR$/vehicle_log/edit_vehicle_db.php</url>
           <line>26</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/labs/ch10_ex1/index.php</url>
+          <line>98</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

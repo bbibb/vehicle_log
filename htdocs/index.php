@@ -136,11 +136,52 @@
                         <div class="card-footer"><a class="btn btn-primary btn-sm" target="_blank" href="labs/ch08_ex2/index.php">Launch</a></div>
                     </div>
                 </div>
+                <div class="col-md-3 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h4 class="card-title">Exercise 9-1</h4>
+                            <p class="card-text"><strong>Write code that works with strings</strong> This lab normalizes, formats, and validates string data from user input..</p>
+                        </div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" target="_blank" href="labs/ch09_ex1/index.php">Launch</a></div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h4 class="card-title">Exercise 9-2</h4>
+                            <p class="card-text"><strong>Write code that works with numbers</strong> This lab normalizes, formats, and validates numeric data from user input.</p>
+                        </div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" target="_blank" href="labs/ch09_ex2/index.php">Launch</a></div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h4 class="card-title">Exercise 10-1</h4>
+                            <p class="card-text"><strong>Write code that works with dates</strong> This lab receives, formats, and calculates due dates as DateTime objects.</p>
+                        </div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" target="_blank" href="labs/ch10_ex1/index.php">Launch</a></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row gx-4 gx-lg-5">
+
+                <div class="col-md-3 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h4 class="card-title">Exercise 11-1</h4>
+                            <p class="card-text"><strong>Work with arrays</strong> This lab uses array creation and manipulation to set, unset, modify, and rearrange a task list.</p>
+                        </div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" target="_blank" href="labs/ch11_ex1/index.php">Launch</a></div>
+                    </div>
+                </div>
 <!--                <div class="col-md-3 mb-5">-->
 <!--                    <div class="card h-100">-->
 <!--                        <div class="card-body">-->
 <!--                            <h4 class="card-title">Exercise 9-1</h4>-->
-<!--                            <p class="card-text"><strong>Write code that works with strings</strong> .</p>-->
+<!--                            <p class="card-text"><strong>Write code that works with strings</strong> This lab normalizes, formats, and validates string data from user input..</p>-->
 <!--                        </div>-->
 <!--                        <div class="card-footer"><a class="btn btn-primary btn-sm" target="_blank" href="labs/ch09_ex1/index.php">Launch</a></div>-->
 <!--                    </div>-->
@@ -149,7 +190,7 @@
 <!--                    <div class="card h-100">-->
 <!--                        <div class="card-body">-->
 <!--                            <h4 class="card-title">Exercise 9-2</h4>-->
-<!--                            <p class="card-text"><strong>Write code that works with numbers</strong> .</p>-->
+<!--                            <p class="card-text"><strong>Write code that works with numbers</strong> This lab normalizes, formats, and validates numeric data from user input.</p>-->
 <!--                        </div>-->
 <!--                        <div class="card-footer"><a class="btn btn-primary btn-sm" target="_blank" href="labs/ch09_ex2/index.php">Launch</a></div>-->
 <!--                    </div>-->
@@ -158,23 +199,37 @@
 <!--                    <div class="card h-100">-->
 <!--                        <div class="card-body">-->
 <!--                            <h4 class="card-title">Exercise 10-1</h4>-->
-<!--                            <p class="card-text"><strong>Write code that works with dates</strong> .</p>-->
+<!--                            <p class="card-text"><strong>Write code that works with dates</strong> This lab receives, formats, and calculates due dates as DateTime objects.</p>-->
 <!--                        </div>-->
 <!--                        <div class="card-footer"><a class="btn btn-primary btn-sm" target="_blank" href="labs/ch10_ex1/index.php">Launch</a></div>-->
 <!--                    </div>-->
 <!--                </div>-->
 
             </div>
+
             <div class="card text-white bg-secondary my-5 py-4 text-center">
                 <div class="card-body" id="project_files"><p class="text-white m-0"><h3>Links to Final Project pages</h3></p></div>
-                <div class="row justify-content-center">
-                    <div class="card py-3 text-center text-light m-5 my-3 col-3">
-                        <h4><a href="vehicle_log/index.php">Landing Page</a></h4>
-                    </div>
-                </div>
+<!--    I moved this link to a card because it did not play well with phone width -->
+<!--                <div class="row justify-content-center">-->
+<!--                    <div class="card py-3 text-center text-light m-5 my-3 col-3">-->
+<!--                        <h4><a href="vehicle_log/index.php">Landing Page</a></h4>-->
+<!--                    </div>-->
+<!--                </div>-->
             </div>
+
             <div class="row gx-4 gx-lg-5">
                 <div class="col-md-3 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h4 class="card-title">Landing Page</h4>
+                            <p class="card-text">Link to project index page.</p>
+                        </div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" target="_blank" href="/vehicle_log/add_vehicle.php">Launch</a></div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-5">
+
                     <div class="card h-100">
                         <div class="card-body">
                             <h4 class="card-title">Project Outline</h4>
@@ -186,7 +241,7 @@
                 <div class="col-md-3 mb-5">
                     <div class="card h-100">
                         <div class="card-body">
-                            <h4 class="card-title">SQL Database Dump</h4>
+                            <h4 class="card-title">SQL DB Dump</h4>
                             <p class="card-text">Preliminary setup for the MySQL database</p>
                         </div>
                         <div class="card-footer"><a class="btn btn-primary btn-sm" target="_blank" href="/vehicle_log/sql_dump.html">Launch</a></div>
@@ -198,21 +253,22 @@
                             <h4 class="card-title">Project Lab 2</h4>
                             <p class="card-text">Connect database to a PHP program. This demonstrates the database connection and pulls test data for display.</p>
                         </div>
-                        <div class="card-footer"><a class="btn btn-primary btn-sm" target="_blank" href="/vehicle_log/projectlab2.php">Launch</a></div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" target="_blank" href="/vehicle_log/vehicles.php">Launch</a></div>
                     </div>
                 </div>
+
+            </div>
+
+            <div class="row gx-4 gx-lg-5">
                 <div class="col-md-3 mb-5">
                     <div class="card h-100">
                         <div class="card-body">
                             <h4 class="card-title">Project Lab 3</h4>
                             <p class="card-text">Interface to add records. This uses an text input form to add a new vehicle record to the database.</p>
                         </div>
-                        <div class="card-footer"><a class="btn btn-primary btn-sm" target="_blank" href="/vehicle_log/projectlab3.php">Launch</a></div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" target="_blank" href="/vehicle_log/add_vehicle.php">Launch</a></div>
                     </div>
                 </div>
-            </div>
-
-            <div class="row gx-4 gx-lg-5">
                 <div class="col-md-3 mb-5">
                     <div class="card h-100">
                         <div class="card-body">
@@ -226,6 +282,7 @@
                             </form></div>
                     </div>
                 </div>
+
 <!--                <div class="col-md-3 mb-5">-->
 <!--                    <div class="card h-100">-->
 <!--                        <div class="card-body">-->
@@ -253,6 +310,7 @@
 <!--                        <div class="card-footer"><a class="btn btn-primary btn-sm" target="_blank" href="/vehicle_log/projectlab3.php">Launch</a></div>-->
 <!--                    </div>-->
 <!--                </div>-->
+
             </div>
 
 

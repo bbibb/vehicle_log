@@ -25,9 +25,9 @@ $statement->closeCursor();
 
 <html lang="en">
 
+
 <?php include('header.php') ?>
 
-// Form to display data fields with current values that can be replaced
 <body class="bg-secondary"> <!-- gray background -->
 
 <div class="card-header py-3 text-center text-light m-5 my-3">
@@ -38,7 +38,7 @@ $statement->closeCursor();
 <div class="container px-lg-3 py-0 bg-light">
     <!-- The form creates a POST array and sends to add_vehicle.php -->
     <form action="edit_vehicle_db.php" method="post"
-          id="add_vehicle_form">
+          id="edit_vehicle_form">
         <!-- The form is divided into two columns for ease of use -->
         <div class="row py-5 mx-5 justify-content-center">
             <div class="col-lg-4">

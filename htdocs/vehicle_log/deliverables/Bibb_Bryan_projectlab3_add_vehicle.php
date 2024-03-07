@@ -2,9 +2,9 @@
 //  Bryan Bibb, CPT283-W01, Feb 1 2024
 //  Program: Project Lab 3: form data input with INSERT INTO database. Demonstrates the use of form input,
 //           assigning PHP variables, and constructing a database query to create a new record.
-//  Related: config.php, error.php, projectlab2.php, projectlab3.php
+//  Related: config.php, error.php, vehicles.php, add_vehicle.php
 //
-//  This PHP script is loaded with the POST array from projectlab3.php. The variables are filtered, tested, and then
+//  This PHP script is loaded with the POST array from add_vehicle.php. The variables are filtered, tested, and then
 //  send to the database a new record.
 
 // filtering of variables
@@ -63,6 +63,6 @@ if (
     $statement->execute();
     $statement->closeCursor();
     // after the record is created, load the page tha views all vehicles
-    header("Location: projectlab2.php");
+    header("Location: vehicles.php");
 }
 ?>

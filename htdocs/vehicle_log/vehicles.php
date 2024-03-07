@@ -6,6 +6,7 @@
 
 <?php include('header.php') ?>
 
+
 <body class="bg-secondary">
 
 <!-- PHP to get table data from the database. All columns are returned, but the table uses only
@@ -22,7 +23,8 @@
 <div class="card-header py-3 text-center text-light m-5 my-3">
 <h1>Vehicle Data</h1>
 </div>
-<div class="container container-fluid px-lg-3 py-0">
+
+<div class="container container-fluid px-lg-5 py-0">
     <table class="table table-striped table-bordered table-responsive bg-light">
     <tr>
         <th>Class</th>
@@ -37,6 +39,7 @@
         <th>Price</th>
         <th>Original Mileage</th>
         <th>Current Mileage</th>
+        <th>   </th>
     </tr>
 
 <!-- PHP foreach loop prints out the cells for each row, one at a time-->
@@ -67,7 +70,7 @@
 </div>
 <div class="row justify-content-center">
 <div class="card py-3 text-center bg-light m-5 my-3 col-3">
-    <h3><a class="link-secondary" href="projectlab3.php">Add a new vehicle</a></h3>
+    <h3><a class="link-secondary" href="add_vehicle.php">Add a new vehicle</a></h3>
 </div>
 </div>
 </body>

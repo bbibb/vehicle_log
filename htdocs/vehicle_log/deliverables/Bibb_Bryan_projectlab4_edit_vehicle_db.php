@@ -69,6 +69,6 @@ if (
     $statement->execute();
     $statement->closeCursor();
     // after the record is created, load the page that views all vehicles
-    header("Location: projectlab2.php");
+    header("Location: vehicles.php");
 }
 ?>
