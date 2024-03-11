@@ -41,7 +41,7 @@ if ($category_id == NULL || $category_id == FALSE || $code == NULL ||
     $statement->execute();
     $statement->closeCursor();
 
-    // Display the Product List (index.php), now with the new row of product data
+    // Display the Product List (home.php), now with the new row of product data
     include('index.php');
 }
 ?>

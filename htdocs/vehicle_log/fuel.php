@@ -1,3 +1,5 @@
+<?php include('session_ok.php');?>
+
 <!DOCTYPE html>
 <html lang="en">
 <!--    Bryan Bibb, CPT283-W01, Feb 1 2024 -->
@@ -67,5 +69,7 @@ $statement->closeCursor();
         <h3><a class="link-secondary" href="add_fuel.php">Add a new fuel record</a></h3>
     </div>
 </div>
+<?php include('footer.php');?>
+
 </body>
 </html>

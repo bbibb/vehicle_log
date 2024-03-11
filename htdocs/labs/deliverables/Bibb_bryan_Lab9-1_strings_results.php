@@ -1,7 +1,7 @@
 <main>
 <h2>Message:</h2>
 <?php
-// make sure that no errors have been encountered in the index.php page.
+// make sure that no errors have been encountered in the home.php page.
 
 if (!empty($first_name) && !empty($name_clean) && !empty($email_clean) && !empty($num_clean)) {
 $message = "Hello $first_name, \n

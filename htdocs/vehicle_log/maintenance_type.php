@@ -1,3 +1,5 @@
+<?php include('session_ok.php');?>
+
 <!DOCTYPE html>
 <html lang="en">
 <!--    Bryan Bibb, CPT283-W01, Feb 1 2024 -->
@@ -20,14 +22,14 @@ $statement->closeCursor();
 
 <!--table header-->
 <div class="card-header py-3 text-center text-light m-5 my-3">
-    <h1>Maintenance Types</h1>
+    <h1>Maintenance Codes</h1>
 </div>
 
 
-<div class="container container-fluid w-25 px-lg-5 py-0">
+<div class="container container-fluid w-50 px-lg-5 py-0">
     <table class="table table-striped table-bordered table-responsive bg-light">
         <tr>
-            <th>Maintenance Type ID</th>
+            <th>Maintenance Code</th>
             <th>Description</th>
             <th></th>
         </tr>
@@ -53,5 +55,7 @@ $statement->closeCursor();
         <h3><a class="link-secondary" href="add_maintenance_type.php">Add a new maintenance type</a></h3>
     </div>
 </div>
+<?php include('footer.php');?>
+
 </body>
 </html>

@@ -1,3 +1,5 @@
+<?php include('session_ok.php')?>
+
 <!DOCTYPE html>
 <html lang="en">
 <!--    Bryan Bibb, CPT283-W01, Feb 1 2024
@@ -73,5 +75,7 @@
     <h3><a class="link-secondary" href="add_vehicle.php">Add a new vehicle</a></h3>
 </div>
 </div>
+<?php include('footer.php');?>
+
 </body>
 </html>

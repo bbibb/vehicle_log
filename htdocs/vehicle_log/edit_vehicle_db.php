@@ -1,4 +1,6 @@
 <?php
+include('session_ok.php');
+
 //  Bryan Bibb, CPT283-W01, Feb 1 2024
 //  Program: Project Lab 4: edit data with INSERT INTO database from user submitted form. Demonstrates the use of form input,
 //           assigning PHP variables, and constructing a database query to create a new record.

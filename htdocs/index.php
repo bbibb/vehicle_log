@@ -22,7 +22,7 @@
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item"><a class="nav-link" aria-current="page" href="#!">Home</a></li>
                         <li class="nav-item"><a class="nav-link" aria-current="page" href="#lab_files">Labs</a></li>
-                        <li class="nav-item"><a class="nav-link" target="_blank" href="vehicle_log/index.php">Final Project</a></li>
+                        <li class="nav-item"><a class="nav-link" target="_blank" href="vehicle_log/home.php">Final Project</a></li>
                         <li class="nav-item"><a class="nav-link" target="_blank" href="/favmovies1">FavMovies1</a></li>
                         <li class="nav-item"><a class="nav-link" target="_blank" href="/favmovies2">FavMovies2</a></li>
                         <li class="nav-item"><a class="nav-link" target="_blank" href="https://github.com/bbibb">Github</a></li>
@@ -264,7 +264,7 @@
                     <div class="card h-100">
                         <div class="card-body">
                             <h4 class="card-title">Project Lab 3</h4>
-                            <p class="card-text">Interface to add records. This uses an text input form to add a new vehicle record to the database.</p>
+                            <p class="card-text">Interface to add records. This uses a text input form to add a new vehicle record to the database.</p>
                         </div>
                         <div class="card-footer"><a class="btn btn-primary btn-sm" target="_blank" href="/vehicle_log/add_vehicle.php">Launch</a></div>
                     </div>
@@ -283,33 +283,33 @@
                     </div>
                 </div>
 
-<!--                <div class="col-md-3 mb-5">-->
-<!--                    <div class="card h-100">-->
-<!--                        <div class="card-body">-->
-<!--                            <h4 class="card-title">SQL Database Dump</h4>-->
-<!--                            <p class="card-text">Preliminary setup for the MySQL database</p>-->
-<!--                        </div>-->
-<!--                        <div class="card-footer"><a class="btn btn-primary btn-sm" target="_blank" href="/vehicle_log/sql_dump.html">Launch</a></div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="col-md-3 mb-5">-->
-<!--                    <div class="card h-100">-->
-<!--                        <div class="card-body">-->
-<!--                            <h4 class="card-title">Project Lab 2</h4>-->
-<!--                            <p class="card-text">Connect database to a PHP program. This demonstrates the database connection and pulls test data for display.</p>-->
-<!--                        </div>-->
-<!--                        <div class="card-footer"><a class="btn btn-primary btn-sm" target="_blank" href="/vehicle_log/projectlab2.php">Launch</a></div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="col-md-3 mb-5">-->
-<!--                    <div class="card h-100">-->
-<!--                        <div class="card-body">-->
-<!--                            <h4 class="card-title">Project Lab 3</h4>-->
-<!--                            <p class="card-text">Interface to add records. This uses an text input form to add a new vehicle record to the database.</p>-->
-<!--                        </div>-->
-<!--                        <div class="card-footer"><a class="btn btn-primary btn-sm" target="_blank" href="/vehicle_log/projectlab3.php">Launch</a></div>-->
-<!--                    </div>-->
-<!--                </div>-->
+                <div class="col-md-3 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h4 class="card-title">Project Lab 5</h4>
+                            <p class="card-text">Navigation and Interface Enhancements: report</p>
+                        </div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" target="_blank" href="projectlab5.html">Launch</a></div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h4 class="card-title">Project Lab 6</h4>
+                            <p class="card-text">Interfaces to all database tables: report.</p>
+                        </div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" target="_blank" href="projectlab6.html">Launch</a></div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h4 class="card-title">Project Lab 7: Progress Report 1</h4>
+                            <p class="card-text">State of the project, next steps, and future plans.</p>
+                        </div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" target="_blank" href="projectlab7.html">Launch</a></div>
+                    </div>
+                </div>
 
             </div>
 

@@ -1,3 +1,5 @@
+<?php include('session_ok.php');?>
+
 <!DOCTYPE html>
 <html>
 <!--    Bryan Bibb, CPT283-W01, Feb 1 2024
@@ -52,5 +54,7 @@
 
     </div>
 </div>
+<?php include('footer.php');?>
+
 </body>
 </html>

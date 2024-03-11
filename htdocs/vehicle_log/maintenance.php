@@ -1,3 +1,5 @@
+<?php include('session_ok.php');?>
+
 <!DOCTYPE html>
 <html lang="en">
 <!--    Bryan Bibb, CPT283-W01, Feb 1 2024 -->
@@ -29,7 +31,7 @@ $statement->closeCursor();
     <table class="table table-striped table-bordered table-responsive bg-light">
         <tr>
             <th>Date</th>
-            <th>Maintenance ID</th>
+            <th>Maintenance Code</th>
             <th>Maintenance Type ID</th>
             <th>Vehicle</th>
             <th>Vendor</th>
@@ -69,5 +71,7 @@ $statement->closeCursor();
         <h3><a class="link-secondary" href="add_maintenance.php">Add a new maintenance record</a></h3>
     </div>
 </div>
+<?php include('footer.php');?>
+
 </body>
 </html>

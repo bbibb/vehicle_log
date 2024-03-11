@@ -1,4 +1,6 @@
 <?php
+include('session_ok.php');
+
 //  Bryan Bibb, CPT283-W01, Mar 3 2024
 
 

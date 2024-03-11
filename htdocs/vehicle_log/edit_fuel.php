@@ -1,3 +1,5 @@
+<?php include('session_ok.php');?>
+
 <?php
 //  Bryan Bibb, CPT283-W01, Feb 1 2024
 
@@ -70,5 +72,7 @@ $statement->closeCursor();
 
     </div>
 </div>
+<?php include('footer.php');?>
+
 </body>
 </html>

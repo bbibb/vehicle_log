@@ -4,7 +4,7 @@
 //     Purpose: Form controls receive data from the user and passes to the display code. The data entered is
 //              evaluated and passed through functions to saniitze and present properly.
 
-// get the data from the form on index.php
+// get the data from the form on home.php
 // data is filtered as it is saved into the variable
     $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
     $password = filter_input(INPUT_POST, 'password');
